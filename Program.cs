@@ -1,7 +1,7 @@
 using System.Configuration;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
-using APIrestFull.Models;
+using ApiCuistot.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSingleton<DatabaseContext>(s => new DatabaseContext(builder.Configuration.GetConnectionString("DefaultConnection")));

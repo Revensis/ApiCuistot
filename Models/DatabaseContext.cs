@@ -27,22 +27,26 @@ namespace ApiCuistot.Models
             Console.WriteLine(_connectionString);
             return new MySqlConnection(_connectionString);
         }
-        public List<int> getId()
+        public List<Conso> getConso()
         {
-            List<int> id = new List<int>();
+            List<Conso> conso = new List<Conso>();
             using (MySqlConnection connection = GetConnection())
             {
                 connection.Open();
-                MySqlCommand cmd = new MySqlCommand("select * from TEST", connection);
+                MySqlCommand cmd = new MySqlCommand("select * from CONSO", connection);
                 using (var reader = cmd.ExecuteReader())
                 {
                     while (reader.Read())
                     {
-                        id.Add(reader.GetInt32("id"));
+                        conso.Add(new Conso()
+                        {
+                            Id = reader.GetInt32("id"),
+                            Name = reader.GetString("nom"),
+                        });
                     }
                 }
             }
-            return id;
+            return conso;
         }
     }
 }
