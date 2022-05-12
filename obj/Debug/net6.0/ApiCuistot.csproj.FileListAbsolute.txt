@@ -1,0 +1,7 @@
+C:\Users\sofia\source\repos\ApiCuistot\obj\Debug\net6.0\ApiCuistot.csproj.AssemblyReference.cache
+C:\Users\sofia\source\repos\ApiCuistot\obj\Debug\net6.0\ApiCuistot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sofia\source\repos\ApiCuistot\obj\Debug\net6.0\ApiCuistot.AssemblyInfoInputs.cache
+C:\Users\sofia\source\repos\ApiCuistot\obj\Debug\net6.0\ApiCuistot.AssemblyInfo.cs
+C:\Users\sofia\source\repos\ApiCuistot\obj\Debug\net6.0\ApiCuistot.csproj.CoreCompileInputs.cache
+C:\Users\sofia\source\repos\ApiCuistot\obj\Debug\net6.0\ApiCuistot.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\sofia\source\repos\ApiCuistot\obj\Debug\net6.0\ApiCuistot.MvcApplicationPartsAssemblyInfo.cache
