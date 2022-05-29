@@ -21,7 +21,7 @@ namespace ApiCuistot.Models
         {
             optionsBuilder.UseSqlServer(_connectionString);
         }
-        //permet d'obtenir une connexion
+       
         private MySqlConnection GetConnection()
         {
             Console.WriteLine(_connectionString);
